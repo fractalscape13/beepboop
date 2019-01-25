@@ -8,6 +8,8 @@ $(document).ready(function() {
   });
 });
 
+var integerArray = [];
+
 function outputFunction(input) {
   if (input.includes('3')? true : false) {
     $("#output3").show();
@@ -16,7 +18,10 @@ function outputFunction(input) {
   } else if (input.includes('1')? true : false) {
     $("#output1").show();
   } else {
+    for (var i = parseInt(input); i >= 0; i--)
+    integerArray = integerArray + i + ", ";
+    $("#outputNum").text(integerArray);
+    alert(integerArray);
 
-    $("#outputNum").show();
   }
 }

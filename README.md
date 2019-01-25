@@ -14,15 +14,15 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
       -Input: "4"
       -Output: "0, 1, 2, 3, 4"
   * _Spec: Numbers containing "3" return "I'm sorry Dave..."
-      -Input: "3"
+      -Input: "13"
       -Output: "I'm sorry Dave. I'm afraid I can't do that."
   * _Spec: Numbers containing "2" return "Boop!"
       -Input: '3'
       -Output: "I'm sorry Dave. I'm afraid I can't do that."
-      -Input: "2"
+      -Input: "42"
       -Output: "Boop!"
   * _Spec: Numbers containing "1" return "Beep!"
-      -Input: "1"
+      -Input: "81"
       -Output: "Beep!"
 
 ## Setup/Installation Requirements
