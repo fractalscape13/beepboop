@@ -18,9 +18,9 @@ function outputFunction(input) {
   } else if (input.includes('1')? true : false) {
     $("#output1").show();
   } else {
-    for (var i = parseInt(input); i >= 1; i--)
+    for (var i = 0; i < parseInt(input); i++)
     integerArray = integerArray + i + ", ";
-    $(".outputNum").text(integerArray + "0");
+    $("#outputNum").text(integerArray + parseInt(input));
 
   }
 }

@@ -1,12 +1,12 @@
 # _Beep Boop_
 
-#### _{Brief description of application}, 1/25/19_
+#### _Application that returns various things based on the number inputted by the user, 1/25/19_
 
 #### By _**Joseph Wangemann**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This page will ask a user to enter a number and then return statements if the number contains a 1, 2, or 3.  If the number doesn't contain 1, 2, or 3, it will return an ascending list of integers from 0 to the inputted number._
 
 ## Specs
 
@@ -27,13 +27,11 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone project from Github repository: https://github.com/fractalscape13/beepboop
+* _Open all files in text editor
+* _Open index.html in browser to view functioning page
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_No server or database needed, no other code needed._
 
 ## Known Bugs
 
