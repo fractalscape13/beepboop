@@ -1,0 +1,25 @@
+body {
+  background-color: darkgray;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 350%;
+  color: pink;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.output {
+  display: none;
+}

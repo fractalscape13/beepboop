@@ -8,6 +8,23 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
+## Specs
+
+  * _Spec: Program returns a range of numbers from 0 to user inputted numbers
+      -Input: "4"
+      -Output: "0, 1, 2, 3, 4"
+  * _Spec: Numbers containing "3" return "I'm sorry Dave..."
+      -Input: "3"
+      -Output: "I'm sorry Dave. I'm afraid I can't do that."
+  * _Spec: Numbers containing "2" return "Boop!"
+      -Input: '3'
+      -Output: "I'm sorry Dave. I'm afraid I can't do that."
+      -Input: "2"
+      -Output: "Boop!"
+  * _Spec: Numbers containing "1" return "Beep!"
+      -Input: "1"
+      -Output: "Beep!"
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
@@ -20,15 +37,15 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Contact me at fractalscape13@gmail.com with any questions or comments_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This project uses HTML, CSS, Javascript, Bootstrap and JQuery._
 
 ### License
 
