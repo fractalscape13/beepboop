@@ -20,8 +20,8 @@ function outputFunction(input) {
   } else {
     for (var i = parseInt(input); i >= 0; i--)
     integerArray = integerArray + i + ", ";
-    $("#outputNum").text(integerArray);
-    alert(integerArray);
+    $(".outputNum").text(integerArray);
+    // alert(integerArray);
 
   }
 }
