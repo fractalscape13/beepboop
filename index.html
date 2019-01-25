@@ -12,13 +12,20 @@
     <div class="well">
       <form class="enterNum">
         <label for="input">Enter any number: </label>
-        <input type="text" name="input" value=""><br>
+        <input type="text" id="numInput" value=""><br>
         <button id="button" type="submit" name="button">Get your results!</button>
       </form>
 
     </div>
     <div class="output">
-      <p>Your results: </p><br>
+      <p>Your results:
+        <span id="result">
+          <p id="output1"> Beep! </p>
+          <p id="output2"> Boop! </p>
+          <p id="output3"> I'm sorry Dave. I'm afraid I can't do that. </p>
+          <p id="outputNum">Range of nums</p>
+        </span>
+      </p><br>
       <a href="index.html">Click to restart</a><br>
     </div>
   </body>
