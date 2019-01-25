@@ -10,7 +10,7 @@ _This page will ask a user to enter a number and then return statements if the n
 
 ## Specs
 
-  * _Spec: Program returns a range of numbers from 0 to user inputted numbers
+  * _Spec: Program returns a range of integers from 0 to user inputted number
       -Input: "4"
       -Output: "0, 1, 2, 3, 4"
   * _Spec: Numbers containing "3" return "I'm sorry Dave..."
