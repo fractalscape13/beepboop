@@ -17,6 +17,8 @@ function outputFunction(input) {
     $("#output2").show();
   } else if (input.includes('1')? true : false) {
     $("#output1").show();
+  } else if (input < 0) {
+    $("#output4").show();
   } else {
     for (var i = 0; i < parseInt(input); i++)
     integerArray = integerArray + i + ", ";
