@@ -3,13 +3,19 @@ body {
   font-family: monospace;
   text-align: center;
   margin-top: 80px;
+  /* background-image: url(../img/bwfractal.jpg); */
 }
 
 h1 {
-  font-size: 350%;
-  color: pink;
-  margin-bottom: 30px;
+  font-size: 450%;
+  color: lightpink;
+  margin-bottom: 60px;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 150%;
+  color: gold;
 }
 
 button {
@@ -20,8 +26,15 @@ button:hover {
   cursor: pointer;
 }
 
+.well {
+  color: azure;
+  font-size: 140%;
+}
+
 .output {
   display: none;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 #output1 {
@@ -33,9 +46,5 @@ button:hover {
 }
 
 #output3 {
-  display: none;
-}
-
-#outputNum {
   display: none;
 }
