@@ -1,3 +1,5 @@
+//ui logic//
+
 $(document).ready(function() {
   $(".enterNum").submit(function(event) {
     event.preventDefault();
@@ -8,17 +10,19 @@ $(document).ready(function() {
   });
 });
 
+//business logic//
+
 var integerArray = [];
 
 function outputFunction(input) {
   if (input.includes('3')? true : false) {
-    $("#output3").show();
+    $("#output3").fadeToggle();
   } else if (input.includes('2')? true : false) {
-    $("#output2").show();
+    $("#output2").fadeToggle();
   } else if (input.includes('1')? true : false) {
-    $("#output1").show();
+    $("#output1").fadeToggle();
   } else if (input < 0) {
-    $("#output4").show();
+    $("#output4").fadeToggle();
   } else {
     for (var i = 0; i < parseInt(input); i++)
     integerArray = integerArray + i + ", ";
